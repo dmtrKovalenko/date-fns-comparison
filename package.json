@@ -5,11 +5,13 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "analyze": "cross-env ANALYZE=true yarn build"
   },
   "dependencies": {
     "@next/bundle-analyzer": "^9.5.3",
     "@types/luxon": "^1.25.0",
+    "cross-env": "^7.0.2",
     "date-fns": "^2.16.1",
     "dayjs": "^1.8.36",
     "luxon": "^1.25.0",
